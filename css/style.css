@@ -1,0 +1,78 @@
+html {
+  font-size: 15px;
+}
+
+.count,
+header {
+  background: linear-gradient(hsl(2, 51%, 51%, 0.7), hsl(2, 51%, 51%, 0.7)),
+    url(../imgs/events-heavenly-header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#navOpener {
+  color: black;
+  position: fixed;
+  transform: translateY(50%);
+  left: 1rem !important;
+}
+
+.count {
+  background: linear-gradient(hsl(2, 51%, 51%, 0.7), hsl(2, 51%, 51%, 0.7)),
+    url(../imgs/invitation-2508607__340.jpg);
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50vh;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+a,
+#navOpener,
+#navCloser,
+#details h2 {
+  cursor: pointer;
+}
+
+#details p {
+  display: none;
+}
+
+.nav-element {
+  transition: color 0.3s;
+}
+
+.nav-element:hover {
+  color: hsl(2, 51%, 21%) !important;
+}
+
+#nav {
+  transform: translateX(-100%);
+}
+
+.time-box {
+  padding: 4rem 5rem;
+}
+
+.contact-link {
+  height: 3.2rem;
+  width: 3.2rem;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.contact-link > a {
+  transition: color 0.3s;
+}
+
+.contact-link:hover {
+  border: none !important;
+  background-color: rgb(179, 33, 33);
+}
+
+.contact-link:hover > a {
+  color: #fff !important;
+}
